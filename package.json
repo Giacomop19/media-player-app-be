@@ -1,0 +1,22 @@
+{
+  "name": "media-player-app-be",
+  "version": "1.0.0",
+  "description": "media player using shakaplayer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giacomop19/media-player-app-be.git"
+  },
+  "author": "Giacomop19",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giacomop19/media-player-app-be/issues"
+  },
+  "homepage": "https://github.com/Giacomop19/media-player-app-be#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
