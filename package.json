@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/server.js",
+    "start": "ts-node-dev server.ts",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/server.js\""
   },
   "repository": {
@@ -20,9 +20,8 @@
   },
   "homepage": "https://github.com/Giacomop19/media-player-app-be#readme",
   "dependencies": {
-    "@types/cookie-session": "^2.0.45",
-    "@types/cors": "^2.8.14",
     "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
     "cookie-session": "^2.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
@@ -32,11 +31,14 @@
     "mongoose": "^7.5.3"
   },
   "devDependencies": {
+    "@types/cookie-session": "^2.0.45",
+    "@types/cors": "^2.8.14",
     "@types/express": "^4.17.18",
     "@types/node": "^20.7.0",
     "concurrently": "^8.2.1",
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
   }
 }
